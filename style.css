@@ -21,17 +21,23 @@ h1 {
   border-width: 5px;
   border-radius: 10px;
   border-color: green;
-  border-style: ridge
+  border-style: solid;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
 }
 
 ol {
   margin-top: 25px;
   margin-bottom: auto;
+  text-align: left;
+  display: inline-block;
+
 }
 
 li{
   margin-top: 5px;
   margin-bottom: 10px;
+  font-size: 18px;
 }
 
 a{
