@@ -6,7 +6,7 @@ img {
   width: 250px;
   height: 250px;
   display: block;
-  margin: 0px;
+  margin: auto;
 }
 
 body {
@@ -40,12 +40,17 @@ h1 {
 }
 
 .div-cards {
-  margin: 20px auto 20px auto;
+  margin: 75px auto;
   width: 1000px;
+  display: flex;
+}
+
+.div-cards div {
+  flex: 1;
 }
 
 .div-main {
-  margin: 20px auto 20px auto;
+  margin: 20px;
   background-color: rgba(255, 255, 255, 0.4);
   padding:20px;
   border-width: 5px;
